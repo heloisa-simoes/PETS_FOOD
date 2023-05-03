@@ -38,3 +38,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: rgb(0, 0, 0);
     }
+    
+    h2 {
+        background-color: cadetblue;
+    }
