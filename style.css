@@ -1,12 +1,14 @@
     body {
         background-image: url("https://img.freepik.com/fotos-gratis/lindo-retrato-de-cachorro_23-2149218452.jpg?w=900&t=st=1680315229~exp=1680315829~hmac=76f78d2810c234f4077335d3e63258e372ac4883c6ecafa9d996d078e5c06ef3");
-        background-repeat: no-repeat;
         background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        overflow: hidden;
     }
     
     .container {
-        width: 60vw;
-        height: 60vh;
+        width: 100vw;
+        height: 100vh;
         display: flex;
         justify-content: start;
         align-items: start;
@@ -24,13 +26,15 @@
         display: flex;
         padding: 1rem;
         width: 100%;
-        gap: 5px;
+        gap: 15px;
     }
     
     .imagem {
-        height: 40%;
-        width: 40%;
-        border-radius: 30%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     
     h1 {
@@ -41,4 +45,36 @@
     
     h2 {
         background-color: cadetblue;
+    }
+    
+    footer {
+        background-color: #82D6F3;
+    }
+    
+    .espaco {
+        margin: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imformacao {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    span {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+        color: black;
+    }
+    
+    button {
+        margin-right: 100px;
+    }
+    
+    .botao {
+        margin-right: 15px;
+        margin: 0;
     }
