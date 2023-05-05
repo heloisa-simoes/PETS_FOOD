@@ -11,4 +11,8 @@
     img {
         display: none;
     }
+
+    .nav-link dropdown-toggle{
+        background-color: aqua;
+    }
 }
